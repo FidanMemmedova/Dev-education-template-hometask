@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 41px 0px 43px 0px;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 56px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: "Crimson Text";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 19px;
+    }
+  }
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+.shop-now-btn {
+  border: 1px solid #5a5a5a;
+  background: transparent;
+  font-family: Crimson Text;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 22px 107px;
+  margin-top: 67px;
+  cursor: pointer;
+}
+#spring-summer-2020 {
+  width: 100%;
+  height: 874px;
+  background: url("/assets/images/image\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  .spring-summer-summary {
+    h1 {
+      font-family: "Crimson Text", serif;
+      font-weight: 400;
+      font-size: 70px;
+      line-height: 90.99px;
+      color: #ffffff;
+      width: 723px;
+      margin: auto;
+      margin-bottom: 27px;
+    }
+    button {
+      border: 4px solid #ffffff;
+      width: 300px;
+      height: 67px;
+      background-color: transparent;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+#new-arrivals {
+  // padding: 157px 207px 0px 207px;
+  padding: 157px 0px;
+  margin-bottom: 150px;
+  width: 100%;
+  height: 90vh;
+  .new-arrivals-header {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-family: "Crimson Text", serif;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 45.49px;
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Crimson Text", serif;
+      font-size: 17px;
+      line-height: 22.1px;
+      color: #7a7a7a;
+    }
+  }
+  .new-arrivals-items {
+    padding-top: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 63px;
+    .new-arrivals-item {
+      img {
+        padding-bottom: 30.78px;
+        width: 250px;
+        height: 375.22px;
+      }
+      p {
+        width: 293px;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p:last-child {
+        padding-top: 10px;
+      }
+    }
+  }
+}
+#spring-summer-campaign {
+  .spring-summer-campaign-summary {
+    display: flex;
+    img {
+      width: 500px;
+      height: 750.44px;
+    }
+    .spring-summer-campaign-summary-items {
+      .spring-summer-campaign-summary-text {
+        margin-top: 85px;
+        margin-left: 74px;
+        font-family: Crimson Text;
+        width: 517px;
+        height: 395px;
+        h4 {
+          width: 300px;
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        p {
+          font-size: 25px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-top: 80px;
+        }
+      }
+      img {
+        margin-left: 91px;
+        margin-top: 167px;
+        width: 600px;
+        height: 393.94px;
+      }
+    }
+  }
+}
+#brand-video {
+  margin-top: 175px;
+  background-image: url("/assets/images/image\ 9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 328px 730px 248px 726px;
+  .video-items {
+    position: relative;
+    img {
+      width: 145px;
+      height: 145px;
+      display: block;
+      margin: auto;
+    }
+    .video-item {
+      position: absolute;
+      top: 20px;
+      left: 166px;
+      img {
+        background-color: aqua;
+        width: 26px;
+        height: 26px;
+        padding: 60px 57px 59px 62px;
+      }
+    }
+  }
+}
+#aphorism {
+  margin-top: 168px;
+  .aphorism-summary {
+    font-family: "Crimson Text";
+    text-align: center;
+    .aphorism-text {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 134%;
+      width: 941px;
+      height: 117px;
+      margin: auto;
+    }
+    .aphorism-author {
+      width: 103px;
+      height: 27px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 134%;
+      margin: auto;
+      margin-top: 43px;
+      color: #9f9f9f;
+      text-align: center;
+    }
+  }
+}
+#women {
+  margin-top: 168px;
+  .women-summary {
+    display: flex;
+    font-family: "Crimson Text";
+    .women-summary-text {
+      margin-left: 52px;
+      margin-top: 101px;
+      h4 {
+        width: 165px;
+        height: 67px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 134%;
+      }
+      p {
+        width: 607px;
+        height: 86px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        margin-top: 43px;
+      }
+    }
+  }
+}
+#men {
+  margin-top: 52px;
+  .men-summary {
+    display: flex;
+    font-family: "Crimson Text";
+    // margin-left: 198px;
+    .men-summary-text {
+      margin-right: 84px;
+      margin-top: 167px;
+      margin-left: 140px;
+      h4 {
+        width: 92px;
+        height: 67px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 134%;
+      }
+      p {
+        width: 517px;
+        height: 86px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        margin-top: 22px;
+      }
+    }
+    .men-summary-items {
+      img {
+        width: 350px;
+        height: 600px;
+      }
+    }
+  }
+}
+#essay-on-about-fashion {
+  margin-top: 159.64px;
+  background-color: #e6e7ec;
+  .essay-on-about-fashion-summary {
+    display: flex;
+    .essay-on-about-fashion-summary-text {
+      padding-top: 82px;
+      font-family: "Crimson Text";
+      h5 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+      }
+      p {
+        margin-top: 49px;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 905px;
+        height: 261px;
+      }
+    }
+  }
+}
+.reade-more-btn {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  padding: 22px 98px 22px 97px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #5a5a5a;
+}
+#our-pics-for-you {
+  // padding: 157px 207px 0px 207px;
+  padding: 157px 0px;
+  margin-bottom: 150px;
+  width: 100%;
+  height: 90vh;
+  .our-pics-header {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-family: "Crimson Text", serif;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 45.49px;
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Crimson Text", serif;
+      font-size: 17px;
+      line-height: 22.1px;
+      color: #7a7a7a;
+    }
+  }
+  .our-pics-items {
+    padding-top: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 63px;
+    .our-pics-item {
+      img {
+        padding-bottom: 30.78px;
+        width: 250px;
+        height: 375.22px;
+      }
+      p {
+        width: 283px;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p:last-child {
+        padding-top: 10px;
+      }
+    }
+  }
+}
+#fashion-and-style {
+  .fashion-and-style-summary {
+    display: flex;
+    justify-content: space-between;
+    .fashion-and-style-summary-items {
+      .fashion-and-style-summary-text {
+        width: 480px;
+        font-family: "Crimson Text";
+        h4 {
+          width: 276px;
+          height: 55px;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 52px;
+        }
+        p {
+          margin-top: 60px;
+          font-weight: 400;
+          font-size: 27px;
+          line-height: 35px;
+          margin-bottom: 50px;
+        }
+      }
+      img {
+        margin-top: 195px;
+        width: 512px;
+        height: 342px;
+      }
+    }
+    img {
+      width: 540px;
+      height: 734px;
+    }
+  }
+}
+footer {
+  margin-top: 191px;
+  background-color: black;
+  color: #e9e5e5;
+  font-family: Crimson Text;
+  h5 {
+    color: #dfdddd;
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .categories {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    // gap: 435px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #515151;
+    ul {
+      list-style-type: none;
+      li {
+        margin-top: 13px;
+        a{
+          text-decoration: none;
+          width: 131px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          color: #e9e5e5;
+        }
+      }
+    }
+    .product {
+      padding-top: 54px;
+      ul {
+        padding-top: 16px;
+      }
+    }
+    .company {
+      padding-top: 47px;
+      ul {
+        padding-top: 10px;
+      }
+    }
+    .assisntance {
+      padding-top: 41px;
+      ul {
+        padding-top: 10px;
+      }
+    }
+  }
+  .contact {
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    .social-medias {
+      p {
+        padding-top: 6px;
+        width: 141px;
+        height: 25px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+      }
+      img {
+        margin-top: 12px;
+        width: 89px;
+        height: 27px;
+        margin-left: -12px;
+        margin-bottom: 101px;
+      }
+    }
+    .subscribe-for-exclusive {
+      form {
+        input[type="email"] {
+          margin-top: 29px;
+          width: 300px;
+          height: 25px;
+          font-family: "Crimson Text";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          color: #6b6969;
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid #504f4f;
+          padding-bottom: 7.25px;
+          &:focus {
+            border: none;
+          }
+        }
+        button {
+          background-color: transparent;
+          margin-left: 25.03px;
+          cursor: pointer;
+          img {
+            width: 15px;
+          }
+        }
+      }
+    }
+    .shipping {
+      label {
+        width: 151px;
+        height: 25px;
+        font-family: "Crimson Text";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #6b6969;
+        margin-right: 10px;
+      }
+      input{
+        border: none;
+        background-color: transparent;
+        color: white;
+      }
+    }
+  }
+}
